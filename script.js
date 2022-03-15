@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://kodilla-tasks-rafal.herokuapp.com';
+  
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 

@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://kodilla-tasks-rafal.herokuapp.com/v1/tasks';
-  const trelloApiRoot = 'https://api.trello.com/1/boards/M6GXHkmA?key=9caf6436c3e13059b4b5a92b6953fcfb&token=34847efb408f4cc10e1770a54dd52ccf0bb34b9c2e3409c0e0f6d404fb54b0bf';
+  const trelloApiRoot = 'https://api.trello.com/1/boards/M6GXHkmA;
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
